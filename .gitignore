@@ -1,0 +1,72 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyo
+*.pyd
+*.whl
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled
+*.pyc
+
+# ---- FastAPI / Uvicorn ----
+# (if you’re using reload, it can create temporary files)
+*.pid
+
+# ---- VS Code ----
+.vscode/
+.history/
+*.code-workspace
+
+# ---- Docker ----
+# Ignore docker build artifacts
+*.pid
+*.seed
+*.pid.lock
+.dockerignore
+
+# Local override files
+docker-compose.override.yml
+
+# ---- Logs ----
+*.log
+*.out
+*.err
+logs/
+log/
+
+# ---- Test & Coverage ----
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# ---- IDEs & OS files ----
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+*.ipynb
+*.csv

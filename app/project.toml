@@ -1,0 +1,29 @@
+[project]
+name = "FinanceDoc-ChatBot"
+version = "0.0.1"
+description = "AI-Powered Q&A with Financial Reports using LangChain, Redis & Streamlit"
+authors = [
+    { name = "Dev Blueprints", email = "228880787+dev-blueprints@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+
+# Core dependencies
+dependencies = [
+    "pydantic_settings",
+    "redis==5.0.0",
+    "streamlit>=1.22",
+    "langchain>=0.1.0",
+    "openai>=1.0.0",
+    "pypdf>=3.11.0",
+    "streamlit"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.2.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
