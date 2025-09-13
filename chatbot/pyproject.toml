@@ -12,10 +12,19 @@ dependencies = [
     "pydantic_settings",
     "redis==5.0.0",
     "streamlit>=1.22",
-    "langchain>=0.1.0",
+
+"langchain[openai]",
+"langchain[huggingface]",
+
+ "sentence-transformers",    
+    "torch",                    
+    "transformers",            
+        "huggingface_hub==0.25.2",
+
+
     "openai>=1.0.0",
     "pypdf>=3.11.0",
-    "streamlit"
+    "langchain-community"
 ]
 
 [project.optional-dependencies]

@@ -16,16 +16,21 @@ services:
 
   app:
     build:
-      context: .app
+      context: ./chatbot
     container_name: "financedoc_chatbot"
-    expose:
-      - "9000"
+    ports:
+      - "8501:8501"
     env_file:
-      - ./app/.env
+      - ./chatbot/.env
+    environment:
+      - PYTHONUNBUFFERED=1
+      - PYTHONPATH=/app
     volumes:
-      - ./app:/app
+      - ./chatbot:/app
     depends_on:
       redis-vector:
         condition: service_healthy
 
-volumes: redis_vector_data
+volumes:
+  redis_vector_data:
+    driver: local

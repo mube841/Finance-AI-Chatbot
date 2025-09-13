@@ -7,6 +7,10 @@ RUN apt-get update && apt-get install -y curl \
     && rm -rf /var/lib/apt/lists/*
 
 
+RUN ls -la /root/.local/bin || true
+
+
+    
 RUN uv --version
 
 WORKDIR /app
@@ -15,15 +19,9 @@ COPY pyproject.toml ./
 
 RUN uv sync 
 
-
-
-
-RUN apt-get update && apt-get install -y build-essential libpoppler-cpp-dev poppler-utils && rm -rf /var/lib/apt/lists/*
-
-
 COPY . .
 
 EXPOSE 8501
 
-CMD ["streamlit", "run", "main.py", "--server.port=8501", "--server.address=0.0.0.0"]
+CMD ["uv", "run", "streamlit", "run", "app/main.py", "--server.port=8501", "--server.address=0.0.0.0"]
 
